@@ -39,7 +39,7 @@ const VEHICLES = [
     title: "Taslim Olawale Elias Program",
     subtitle: "Youth Sports & Intellect",
     accentColor: "#4CAF72",
-    image: "/src/assets/images/gallery/11.jpg?w=600&h=380&fit=crop&auto=format",
+    image: "/assets/images/gallery/11.jpg?w=600&h=380&fit=crop&auto=format",
     imageAlt: "Youth gathering on football field",
     features: [
       {
@@ -62,7 +62,7 @@ const VEHICLES = [
     title: "Ganiat Elias Initiative",
     subtitle: "Female Empowerment",
     accentColor: "#E8A020",
-    image: "/src/assets/images/gallery/24.jpg?w=600&h=380&fit=crop&auto=format",
+    image: "/assets/images/gallery/24.jpg?w=600&h=380&fit=crop&auto=format",
     imageAlt: "Woman educator with children",
     features: [
       { Icon: Star, text: "Female scholarships for academic advancement" },
@@ -79,7 +79,7 @@ const VEHICLES = [
     title: "ARIKE Fund",
     subtitle: "General Aid & Special Grants",
     accentColor: "#0C2355",
-    image: "/src/assets/images/gallery/28.jpg?w=600&h=380&fit=crop&auto=format",
+    image: "/assets/images/gallery/28.jpg?w=600&h=380&fit=crop&auto=format",
     imageAlt: "Students in classroom",
     features: [
       { Icon: Target, text: "Financial assistance for dream fulfillment" },
@@ -271,21 +271,21 @@ export default function App() {
           <div className="relative grid grid-cols-5 grid-rows-2 gap-3 h-72 lg:h-[400px]">
             <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden bg-[#0a1e47]">
               <img
-                src="/src/assets/images/trophy_lifting.jpg"
+                src="/assets/images/trophy_lifting.jpg"
                 alt="Youth football player"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
             <div className="col-span-2 row-span-1 rounded-2xl overflow-hidden bg-[#0a1e47]">
               <img
-                src="/src/assets/images/student-lecture.jpg"
+                src="/assets/images/student-lecture.jpg"
                 alt="Woman educator with children"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
             <div className="col-span-2 row-span-1 rounded-2xl overflow-hidden bg-[#0a1e47]">
               <img
-                src="/src/assets/images/third_display.jpg"
+                src="/assets/images/third_display.jpg"
                 alt="Students in classroom"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
@@ -317,7 +317,7 @@ export default function App() {
       <section
         id="about"
         className="py-20 bg-cover bg-center bg-no-repeat relative"
-        style={{ backgroundImage: `url('/src/assets/images/group-pix.jpg')` }}
+        style={{ backgroundImage: `url('/assets/images/group-pix.jpg')` }}
       >
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center mb-14">
@@ -499,43 +499,43 @@ export default function App() {
           {/* ── 3. Single-Image Slider Window ── */}
           <div className="w-full h-[650px] md:h-[650px] border border-border rounded-3xl overflow-hidden bg-white shadow-sm relative mb-5">
             {[
-              "/src/assets/images/gallery/bg.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/1.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/2.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/3.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/4.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/5.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/6.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/7.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/8.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/9.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/10.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/11.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/12.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/13.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/14.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/15.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/16.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/17.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/18.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/19.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/20.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/21.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/22.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/23.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/24.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/25.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/26.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/27.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/28.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/29.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/30.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/31.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/32.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/33.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/34.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/35.jpg?w=1200&auto=format&fit=crop",
-              "/src/assets/images/gallery/36.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/bg.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/1.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/2.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/3.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/4.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/5.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/6.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/7.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/8.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/9.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/10.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/11.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/12.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/13.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/14.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/15.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/16.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/17.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/18.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/19.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/20.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/21.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/22.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/23.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/24.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/25.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/26.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/27.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/28.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/29.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/30.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/31.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/32.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/33.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/34.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/35.jpg?w=1200&auto=format&fit=crop",
+              "/assets/images/gallery/36.jpg?w=1200&auto=format&fit=crop",
             ].map((imgSrc, index) => (
               <div
                 key={index}
